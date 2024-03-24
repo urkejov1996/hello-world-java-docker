@@ -37,7 +37,7 @@ FROM maven:3.8.6-openjdk-18-slim AS build
 WORKDIR /home/app
 
 COPY ./pom.xml /home/app/pom.xml
-COPY ./src/main/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java	/home/app/src/main/java/com/in28minutes/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
+COPY ./src/main/java/com/urkejov/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java	/home/app/src/main/java/com/urkejov/rest/webservices/restfulwebservices/RestfulWebServicesApplication.java
 
 RUN mvn -f /home/app/pom.xml clean package
 
