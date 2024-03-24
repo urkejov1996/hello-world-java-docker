@@ -1,7 +1,10 @@
+in this repo i practiced creating docker images and containers with dockerfile in simle java project
+
+
 # Dockerfile Examples
 
 ## Docker commands
-- docker build -t in28min/hello-world-docker:v1 .
+- docker build -t urkejov/hello-world-docker:v1 .
 
 
 ## Dockerfile - 1 - Creating Docker Images
